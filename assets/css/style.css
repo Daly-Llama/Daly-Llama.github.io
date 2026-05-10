@@ -22,14 +22,14 @@
   --bg-page:        #FAFAF7;   /* Main page background (warm off-white) */
   --bg-surface:     #FFFFFF;   /* Cards and panels */
   --bg-nav:         #FFFFFF;   /* Navigation bar background */
-  --bg-hero:        #1E2A3A;   /* Hero section background (dark navy) */
-  --bg-footer:      #1E2A3A;   /* Footer background */
+  --bg-hero:        #bcbcbc;   /* Hero section background (dark navy) */
+  --bg-footer:      #bcbcbc;   /* Footer background */
   --bg-tag:         #EBF8F7;   /* Skill tag / badge background */
 
   /* --- Text colors --- */
   --text-primary:   #1E2A3A;   /* Main body text (dark navy) */
   --text-secondary: #4A5568;   /* Muted / supporting text */
-  --text-hero:      #FFFFFF;   /* Text on dark hero background */
+  --text-hero:      #1f61a9;   /* Text on dark hero background */
   --text-footer:    #A0AEC0;   /* Footer body text */
   --text-nav:       #1E2A3A;   /* Nav link color */
 
