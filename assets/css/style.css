@@ -1,0 +1,745 @@
+/* ============================================================
+   DALLIN NIELSON PORTFOLIO — style.css
+   ============================================================
+   HOW TO CUSTOMIZE THIS FILE:
+   ─ Change colors:  edit the values inside :root {} (lines ~30–65)
+   ─ Change fonts:   edit --font-heading / --font-body (lines ~67–70)
+                     AND update the Google Fonts URL in default.html
+   ─ Change spacing: edit --spacing-* values (lines ~72–80)
+   Each major section is labeled. Use Ctrl+F to jump to any section.
+   ============================================================ */
+
+
+/* ============================================================
+   1. CUSTOMIZE: COLORS, FONTS & SPACING
+   ============================================================
+   These CSS variables control the ENTIRE look of your site.
+   Change a value here and it updates everywhere automatically.
+   ============================================================ */
+:root {
+
+  /* --- Page background colors --- */
+  --bg-page:        #FAFAF7;   /* Main page background (warm off-white) */
+  --bg-surface:     #FFFFFF;   /* Cards and panels */
+  --bg-nav:         #FFFFFF;   /* Navigation bar background */
+  --bg-hero:        #1E2A3A;   /* Hero section background (dark navy) */
+  --bg-footer:      #1E2A3A;   /* Footer background */
+  --bg-tag:         #EBF8F7;   /* Skill tag / badge background */
+
+  /* --- Text colors --- */
+  --text-primary:   #1E2A3A;   /* Main body text (dark navy) */
+  --text-secondary: #4A5568;   /* Muted / supporting text */
+  --text-hero:      #FFFFFF;   /* Text on dark hero background */
+  --text-footer:    #A0AEC0;   /* Footer body text */
+  --text-nav:       #1E2A3A;   /* Nav link color */
+
+  /* --- Accent colors --- */
+  --accent:         #0EA5A0;   /* Primary accent — teal (headings, borders, highlights) */
+  --accent-warm:    #D97706;   /* Secondary accent — amber (badges, hover states) */
+  --accent-light:   #E6FAF9;   /* Light tint of accent (button hovers, subtle fills) */
+
+  /* --- Borders --- */
+  --border:         #E2E8F0;   /* Standard border color */
+  --border-card:    #EDF2F7;   /* Card border (slightly lighter) */
+
+  /* --- Fonts ---
+     To swap: change the family names below AND update the
+     Google Fonts link in _layouts/default.html               */
+  --font-heading:  'Playfair Display', Georgia, serif;
+  --font-body:     'Source Sans 3', system-ui, sans-serif;
+  --font-mono:     'JetBrains Mono', 'Courier New', monospace;
+
+  /* --- Layout sizing --- */
+  --max-width:      1080px;    /* Max width of content */
+  --nav-height:     64px;
+  --section-gap:    4rem;      /* Space between page sections */
+  --card-radius:    10px;      /* Corner rounding on cards */
+}
+
+
+/* ============================================================
+   2. RESET & BASE STYLES
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.0625rem;   /* 17px */
+  line-height: 1.75;
+  color: var(--text-primary);
+  background: var(--bg-page);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  line-height: 1.25;
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--card-radius);
+}
+
+code, pre {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+
+/* ============================================================
+   3. NAVIGATION BAR
+   ============================================================ */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--nav-height);
+  background: var(--bg-nav);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Your name / logo in the nav */
+.nav-brand {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nav-brand:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Navigation link list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  transition: color 0.15s, background 0.15s;
+}
+.nav-links a:hover {
+  color: var(--text-primary);
+  background: var(--accent-light);
+  text-decoration: none;
+}
+/* Active page link */
+.nav-links a.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   4. MAIN CONTENT WRAPPER
+   ============================================================ */
+.site-main {
+  flex: 1;
+}
+
+/* Shared section padding used on About, Projects, Contact pages */
+.page-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--section-gap) 2rem;
+}
+
+
+/* ============================================================
+   5. HERO SECTION (Home page)
+   ============================================================ */
+.hero {
+  background: var(--bg-hero);
+  color: var(--text-hero);
+  padding: 5rem 2rem 4.5rem;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 5vw, 3.75rem);
+  font-weight: 700;
+  color: var(--text-hero);
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.75);
+  max-width: 560px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+
+/* Hero call-to-action buttons */
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Primary button (solid teal) */
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #0c9490;
+  box-shadow: 0 4px 16px rgba(14, 165, 160, 0.35);
+}
+
+/* Secondary button (outline) */
+.btn-secondary {
+  background: transparent;
+  color: rgba(255,255,255,0.9);
+  border: 1.5px solid rgba(255,255,255,0.45);
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.7);
+}
+
+
+/* ============================================================
+   6. FEATURE CARDS (Home page — three-column grid)
+   ============================================================ */
+.cards-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--section-gap) 2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-card);
+  border-radius: var(--card-radius);
+  padding: 2rem 1.75rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: var(--text-primary);
+}
+
+.card p {
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+.card-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+.card-link::after { content: " →"; }
+
+
+/* ============================================================
+   7. PAGE HEADERS (About, Projects, Contact pages)
+   ============================================================ */
+.page-header {
+  background: var(--bg-hero);
+  color: var(--text-hero);
+  padding: 3.5rem 2rem 3rem;
+  text-align: center;
+}
+
+.page-header-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: var(--text-hero);
+  margin-bottom: 0.6rem;
+}
+
+.page-header p {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+
+/* ============================================================
+   8. ABOUT PAGE — Bio & Skills
+   ============================================================ */
+
+/* Profile image + intro text side by side on larger screens */
+.about-intro {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.about-intro img {
+  width: 100%;
+  border-radius: 50%;
+  border: 4px solid var(--accent-light);
+}
+
+/* Section heading with teal left-border accent */
+.section-heading {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--accent);
+}
+
+/* Skill tags / badges */
+.skills-group {
+  margin-bottom: 2rem;
+}
+
+.skills-group h4 {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--bg-tag);
+  color: var(--accent);
+  border: 1px solid rgba(14, 165, 160, 0.2);
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* Values list */
+.values-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.values-list li {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-card);
+  border-radius: 8px;
+  padding: 0.75rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  border-left: 3px solid var(--accent-warm);
+}
+
+
+/* ============================================================
+   9. PROJECTS PAGE — Project cards
+   ============================================================ */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-card);
+  border-radius: var(--card-radius);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.project-card:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.09);
+  transform: translateY(-4px);
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: var(--text-secondary);
+  font-size: 0.96rem;
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+/* Label across the top of a project card (e.g., "Machine Learning") */
+.project-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-warm);
+  margin-bottom: 0.6rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.project-links a {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1.5px solid rgba(14, 165, 160, 0.3);
+  padding: 0.3rem 0.85rem;
+  border-radius: 5px;
+  transition: background 0.15s;
+}
+.project-links a:hover {
+  background: var(--accent-light);
+  text-decoration: none;
+}
+
+
+/* ============================================================
+   10. CONTACT PAGE
+   ============================================================ */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-card);
+  border-radius: var(--card-radius);
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.contact-card .contact-icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.contact-card a, .contact-card p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.contact-card a:hover {
+  color: var(--accent);
+}
+
+/* "What I'm looking for" text block */
+.contact-note {
+  background: var(--bg-hero);
+  color: var(--text-hero);
+  border-radius: var(--card-radius);
+  padding: 2.25rem 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.contact-note h2 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.contact-note p {
+  color: rgba(255,255,255,0.75);
+  max-width: 560px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+
+/* ============================================================
+   11. FOOTER
+   ============================================================ */
+.site-footer {
+  background: var(--bg-footer);
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.footer-name {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.footer-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+
+.footer-links a {
+  color: var(--text-footer);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: rgba(160,174,192,0.5);
+}
+
+
+/* ============================================================
+   12. UTILITY CLASSES  (use these in your Markdown/HTML)
+   ============================================================ */
+
+/* Center-align a block of content */
+.text-center { text-align: center; }
+
+/* Accent-colored inline text */
+.text-accent { color: var(--accent); }
+
+/* Monospace label style */
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
+/* Standard section intro paragraph */
+.section-intro {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
+
+/* ============================================================
+   13. RESPONSIVE — MOBILE ADJUSTMENTS
+   ============================================================ */
+@media (max-width: 768px) {
+  :root {
+    --section-gap: 3rem;
+  }
+
+  .nav-inner {
+    padding: 0 1.25rem;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: var(--nav-height);
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .nav-links {
+    gap: 0.15rem;
+  }
+
+  .nav-links a {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.88rem;
+  }
+
+  .hero {
+    padding: 3.5rem 1.25rem 3rem;
+  }
+
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about-intro img {
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  .page-section {
+    padding: var(--section-gap) 1.25rem;
+  }
+
+  .cards-section {
+    padding: var(--section-gap) 1.25rem;
+  }
+
+  .page-header {
+    padding: 2.5rem 1.25rem 2rem;
+  }
+
+  .contact-note {
+    padding: 2rem 1.25rem;
+  }
+}
