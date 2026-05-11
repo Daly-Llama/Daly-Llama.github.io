@@ -551,6 +551,7 @@ hr {
   border-radius: var(--card-radius);
   padding: 1.75rem;
   text-align: center;
+  align-items: center;
 }
 
 .contact-card .contact-icon {
