@@ -15,8 +15,8 @@ url:         "https://Daly-Llama.github.io"
 baseurl:     ""   # Leave blank unless your repo is at yourusername.github.io/reponame
 
 # --- Your contact links (used in the footer automatically) ---
-email:       "your.email@example.com"
-linkedin:    "https://www.linkedin.com/in/yourprofile"
+email:       "dallin.nielson@gmail.com"
+linkedin:    "https://www.linkedin.com/in/dallin-nielson"
 github:      "https://github.com/Daly-Llama"
 
 # --- Jekyll settings (no need to change these) ---
