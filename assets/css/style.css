@@ -22,20 +22,20 @@
   --bg-page:        #FAFAF7;   /* Main page background (warm off-white) */
   --bg-surface:     #FFFFFF;   /* Cards and panels */
   --bg-nav:         #FFFFFF;   /* Navigation bar background */
-  --bg-hero:        #bcbcbc;   /* Hero section background (dark navy) */
-  --bg-footer:      #bcbcbc;   /* Footer background */
+  --bg-hero:        #bcbcbc;   /* Hero section background - grey */
+  --bg-footer:      #bcbcbc;   /* Footer background - grey */
   --bg-tag:         #EBF8F7;   /* Skill tag / badge background */
 
   /* --- Text colors --- */
   --text-primary:   #1E2A3A;   /* Main body text (dark navy) */
   --text-secondary: #4A5568;   /* Muted / supporting text */
-  --text-hero:      #1f61a9;   /* Text on dark hero background */
-  --text-footer:    #A0AEC0;   /* Footer body text */
+  --text-hero:      #E66C37;   /* Text on dark hero background - orange*/
+  --text-footer:    #E66C37;   /* Footer body text */
   --text-nav:       #1E2A3A;   /* Nav link color */
 
   /* --- Accent colors --- */
-  --accent:         #0EA5A0;   /* Primary accent — teal (headings, borders, highlights) */
-  --accent-warm:    #D97706;   /* Secondary accent — amber (badges, hover states) */
+  --accent:         #E66C37;   /* Primary accent — orange (headings, borders, highlights) */
+  --accent-warm:    ##118DFF;   /* Secondary accent — blue (badges, hover states) */
   --accent-light:   #E6FAF9;   /* Light tint of accent (button hovers, subtle fills) */
 
   /* --- Borders --- */
