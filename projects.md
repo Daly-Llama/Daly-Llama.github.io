@@ -35,9 +35,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
       <h3>Link-Validation Classifier</h3>
       <!-- EDIT: 2–3 sentence description -->
       <p>
-        Built an NLP classifier to automatically detect broken or outdated links
-        in a large knowledge base, reducing manual review time and improving
-        content reliability scores.
+        Placeholder text
       </p>
       <!-- EDIT: Update href to your actual GitHub/demo links -->
       <div class="project-links">
@@ -51,8 +49,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
       <p class="project-label">Clustering · Unsupervised ML</p>
       <h3>Support Ticket Clustering</h3>
       <p>
-        Applied topic modeling and k-means clustering to thousands of support tickets
-        to surface hidden issue patterns, enabling proactive knowledge base improvements.
+        Placeholder text
       </p>
       <div class="project-links">
         <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">GitHub</a>
@@ -64,9 +61,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
       <p class="project-label">RAG · Retrieval Systems</p>
       <h3>RAG Pipeline for Knowledge Retrieval</h3>
       <p>
-        Designed and tested a retrieval-augmented generation pipeline to evaluate
-        how AI can surface the most relevant knowledge articles for support agents
-        in real time.
+        Placeholder text
       </p>
       <div class="project-links">
         <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">GitHub</a>

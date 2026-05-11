@@ -18,7 +18,7 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
   <div class="hero-inner">
 
     <!-- Small label above your name -->
-    <p class="hero-eyebrow">Master of Data Science · KCS Specialist</p>
+    <p class="hero-eyebrow">KCS Program Lead · ML & Data Science for Knowledge Systems</p>
 
     <!-- Your name — this is the biggest text on the page -->
     <h1>Dallin Nielson</h1>
@@ -44,19 +44,17 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
   <!-- Section heading (optional — delete if you prefer no heading) -->
   <h2 class="section-heading">What I Do</h2>
   <p class="section-intro">
-    My work sits at the intersection of applied machine learning, knowledge architecture,
-    and human-centered workflow design.
+    My work sits at the intersection of applied machine learning, knowledge architecture, and human-centered workflow design.
   </p>
 
   <div class="cards-grid">
 
     <!-- CARD 1 — Change the icon, title, description, and link -->
     <div class="card">
-      <span class="card-icon">🤖</span>
-      <h3>Machine Learning & NLP</h3>
+      <span class="card-icon">🗂️</span>
+      <h3>Placeholder 1</h3>
       <p>
-        Classification, clustering, topic modeling, and RAG pipelines —
-        applied to real support and knowledge workflows.
+        Projects Placeholder
       </p>
       <a href="/projects" class="card-link">See projects</a>
     </div>
@@ -64,23 +62,21 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
     <!-- CARD 2 -->
     <div class="card">
       <span class="card-icon">🗂️</span>
-      <h3>Knowledge Architecture</h3>
+      <h3>Placeholder 2</h3>
       <p>
-        Designing information systems that are easier to find, easier to trust,
-        and easier to improve over time.
+        About Me placeholder
       </p>
       <a href="/about" class="card-link">My approach</a>
     </div>
 
     <!-- CARD 3 -->
     <div class="card">
-      <span class="card-icon">📊</span>
-      <h3>Data & ETL Engineering</h3>
+      <span class="card-icon">🗂️</span>
+      <h3>Placeholder 3</h3>
       <p>
-        Building pipelines that clean, validate, and transform messy real-world
-        data into structured, actionable insight.
+        Contact Placeholder
       </p>
-      <a href="/projects" class="card-link">See projects</a>
+      <a href="/contact" class="card-link">Contact Me</a>
     </div>
 
   </div>

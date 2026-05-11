@@ -30,21 +30,13 @@ description: "About Dallin Nielson — data scientist building human and data fo
     <div>
       <!-- EDIT: Replace with your actual bio text -->
       <p style="margin-bottom: 1rem;">
-        I build the human and data foundations for AI-driven knowledge systems.
-        My work sits at the intersection of <strong>technical support</strong>,
-        <strong>data science</strong>, <strong>knowledge architecture</strong>,
-        and <strong>human-centered design</strong>.
+        Placeholder paragraph 1
       </p>
       <p style="margin-bottom: 1rem;">
-        I'm fascinated by how people find, use, and trust information — and how
-        we can use analytics, machine learning, and workflow design to make that
-        experience dramatically better.
+        Placeholder paragraph 2
       </p>
       <p>
-        I'm currently completing my <strong>Master's in Data Science</strong>, focused on
-        applied machine learning, NLP, clustering, and retrieval-augmented generation (RAG).
-        I enjoy taking ambiguous, messy problems and shaping them into clear systems
-        that scale.
+        Placeholder paragraph 3
       </p>
     </div>
 
@@ -67,7 +59,6 @@ description: "About Dallin Nielson — data scientist building human and data fo
       <span class="tag">Classification</span>
       <span class="tag">Clustering</span>
       <span class="tag">NLP</span>
-      <span class="tag">Topic Modeling</span>
       <span class="tag">RAG Pipelines</span>
       <span class="tag">Model Evaluation</span>
     </div>
@@ -76,11 +67,8 @@ description: "About Dallin Nielson — data scientist building human and data fo
   <div class="skills-group">
     <h4>Data &amp; Engineering</h4>
     <div class="tags">
-      <span class="tag">ETL Pipelines</span>
-      <span class="tag">API Integration</span>
       <span class="tag">Data Cleaning</span>
       <span class="tag">Feature Engineering</span>
-      <span class="tag">SQL</span>
     </div>
   </div>
 
@@ -91,19 +79,15 @@ description: "About Dallin Nielson — data scientist building human and data fo
       <span class="tag">Pandas</span>
       <span class="tag">NumPy</span>
       <span class="tag">Scikit-learn</span>
-      <span class="tag">spaCy</span>
-      <span class="tag">NLTK</span>
       <span class="tag">Matplotlib</span>
       <span class="tag">Seaborn</span>
-      <span class="tag">Git / GitHub</span>
     </div>
   </div>
 
   <div class="skills-group">
     <h4>Knowledge &amp; Workflow Design</h4>
     <div class="tags">
-      <span class="tag">Information Architecture</span>
-      <span class="tag">Metadata Strategy</span>
+      <span class="tag">Knowledge Centered Service (KCS)</span>
       <span class="tag">Content Quality</span>
       <span class="tag">Findability</span>
       <span class="tag">Measurement</span>
@@ -140,9 +124,6 @@ description: "About Dallin Nielson — data scientist building human and data fo
   <h2 class="section-heading">What I'm Working On Right Now</h2>
 
   <!-- EDIT: Update this list as your projects evolve -->
-  - Building a link-validation classifier using NLP
-  - Clustering support tickets to reveal hidden patterns
-  - Experimenting with RAG pipelines for knowledge retrieval
-  - Writing a Medium article on applied ML in real workflows
+  - Placeholder text
 
 </section>
