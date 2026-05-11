@@ -557,6 +557,8 @@ hr {
   font-size: 2.25rem;
   margin-bottom: 0.75rem;
   display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-card h3 {
@@ -608,7 +610,6 @@ hr {
   width: 64px;
   height: 64px;
   object-fit: contain;
-  align-items: center;
 }
 
 
