@@ -25,8 +25,7 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
 
     <!-- One-sentence description of what you do -->
     <p class="hero-subtitle">
-      I build the human and data foundations for AI-driven knowledge systems —
-      where machine learning meets real support workflows.
+      Building knowledge systems where people and AI work together.
     </p>
 
     <!-- Call-to-action buttons -->

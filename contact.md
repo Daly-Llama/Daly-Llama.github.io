@@ -31,22 +31,22 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
       <span class="contact-icon">✉️</span>
       <h3>Email</h3>
       <!-- EDIT: Replace with your actual email -->
-      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="mailto:dallin.nielson@gmail.com">dallin.nielson@gmail.com</a>
     </div>
 
     <!-- LINKEDIN -->
     <div class="contact-card">
-      <span class="contact-icon">💼</span>
+      <span class="contact-icon"><img src="/assets/LI-In-Bug.png" alt="LinkedIn Logo icon"></span>
       <h3>LinkedIn</h3>
       <!-- EDIT: Replace with your LinkedIn URL and display text -->
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">
-        linkedin.com/in/yourprofile
+      <a href="https://www.linkedin.com/in/dallin-nielson" target="_blank" rel="noopener">
+        linkedin.com/in/dallin-nielson
       </a>
     </div>
 
     <!-- GITHUB -->
     <div class="contact-card">
-      <span class="contact-icon">💻</span>
+      <span class="contact-icon"><img src="/assets/GitHub_Invertocat_Black.png" alt="GitHub Logo icon"></span>
       <h3>GitHub</h3>
       <!-- EDIT: Replace with your GitHub URL -->
       <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">
@@ -71,11 +71,9 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
   <!-- "WHAT I'M LOOKING FOR" SECTION -->
   <div class="contact-note">
     <!-- EDIT: Update this to describe your goals / what you're open to -->
-    <h2>What I'm Looking For</h2>
+    <h2>What I'm Interested In</h2>
     <p>
-      I'm actively seeking roles where data science and knowledge management intersect —
-      particularly in KCS, AI-assisted support, or applied NLP. If you're working on
-      making knowledge systems smarter, I'd love to talk.
+      I'm always open to conversations at the intersection of data science, knowledge management, and technical support operations — especially around AI‑assisted support, applied NLP, and building healthier knowledge ecosystems. If you're working in this space, I'd love to connect.
     </p>
   </div>
 
