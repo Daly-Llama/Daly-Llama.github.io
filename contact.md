@@ -28,7 +28,7 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
 
     <!-- EMAIL -->
     <div class="contact-card">
-      <span class="contact-icon"><img src="/assets/Email.jpg" alt="Email icon" style="width: 32px; height: 32px;></span>
+      <span class="contact-icon"><img src="/assets/Email.jpg" alt="Email icon" style="width: 32px; height: 32px;"></span>
       <h3>Email</h3>
       <!-- EDIT: Replace with your actual email -->
       <a href="mailto:dallin.nielson@gmail.com">dallin.nielson@gmail.com</a>
@@ -36,7 +36,7 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
 
     <!-- LINKEDIN -->
     <div class="contact-card">
-      <span class="contact-icon"><img src="/assets/LI-In-Bug.png" alt="LinkedIn Logo icon" style="width: 32px; height: 32px;></span>
+      <span class="contact-icon"><img src="/assets/LI-In-Bug.png" alt="LinkedIn Logo icon" style="width: 32px; height: 32px;"></span>
       <h3>LinkedIn</h3>
       <!-- EDIT: Replace with your LinkedIn URL and display text -->
       <a href="https://www.linkedin.com/in/dallin-nielson" target="_blank" rel="noopener">
@@ -46,7 +46,7 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
 
     <!-- GITHUB -->
     <div class="contact-card">
-      <span class="contact-icon"><img src="/assets/GitHub_Invertocat_Black.png" alt="GitHub Logo icon" style="width: 32px; height: 32px;></span>
+      <span class="contact-icon"><img src="/assets/GitHub_Invertocat_Black.png" alt="GitHub Logo icon" style="width: 32px; height: 32px;"></span>
       <h3>GitHub</h3>
       <!-- EDIT: Replace with your GitHub URL -->
       <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">
