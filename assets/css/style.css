@@ -604,6 +604,12 @@ hr {
   font-size: 1.05rem;
 }
 
+.icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 
 /* ============================================================
    11. FOOTER
