@@ -557,6 +557,10 @@ hr {
   font-size: 2.25rem;
   margin-bottom: 0.75rem;
   display: block;
+}
+
+.contact-icon {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
