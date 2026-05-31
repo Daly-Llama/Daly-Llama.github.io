@@ -49,7 +49,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
     <!-- PROJECT 2 -->
     <div class="project-card">
       <p class="project-label">NLP · Semantic Search · Information Retrieval</p>
-      <h3>Semantic KCS Knowledge Search</h3>
+      <h3>KCS Semantic Search</h3>
       <p>
         A semantic search engine that surfaces the most relevant knowledge articles
         for a support incident using sentence embeddings and cosine similarity.
@@ -84,7 +84,46 @@ description: "Data science and machine learning projects by Dallin Nielson."
       </div>
     </div>
 
-    <!-- PROJECT 4 — TEMPLATE: Duplicate this block to add more projects -->
+    <!-- Project 4 -->
+    <div class="project-card">
+      <p class="project-label">NLP · Text Classification · TF-IDF</p>
+      <h3>Support Ticket Classification</h3>
+      <p>
+        An NLP pipeline that applies TF-IDF vectorization and multi-class
+        classification to predict the topic category of customer support tickets
+        from their text descriptions. The project compared Logistic Regression,
+        Decision Trees, and Multinomial Naive Bayes via GridSearchCV across
+        progressively refined problem formulations — from 16-class classification
+        down to binary — diagnosing class imbalance and data quality issues at
+        each stage. The final binary classifier achieved 79% accuracy predicting
+        hardware issue tickets, with the multi-class challenge documented as a
+        foundation for future work.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Daly-Llama/ticket_classifier" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <p class="project-label">Classification · Decision Trees</p>
+      <h3>Credit Card Fraud Detection</h3>
+      <p>
+        A Decision Tree classifier that predicts fraudulent credit card transactions
+        across 1 million records, designed with regulatory transparency as an explicit
+        requirement alongside accuracy. The model achieves 100% recall on fraud cases
+        in the test set — missing only 2 of 26,131 fraudulent transactions — while
+        remaining fully interpretable: every decision can be traced through the tree
+        and explained to auditors. Includes cross-validation and a documented
+        deployment recommendation that prioritizes analyst oversight over automated
+        blocking.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Daly-Llama/fraud_detection" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT # — TEMPLATE: Duplicate this block to add more projects -->
     <!--
     <div class="project-card">
       <p class="project-label">Your Category Here</p>
