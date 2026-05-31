@@ -463,6 +463,25 @@ hr {
   border-left: 3px solid var(--accent-warm);
 }
 
+.value-item {
+  border-left: 3px solid var(--accent-warm);
+  padding: 0.5rem 0 0.5rem 1.1rem;
+  margin-bottom: 1.75rem;
+}
+
+.value-item h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.value-item p {
+  color: var(--text-secondary);
+  font-size: 0.97rem;
+  line-height: 1.65;
+  margin: 0;
+}
 
 /* ============================================================
    9. PROJECTS PAGE — Project cards
