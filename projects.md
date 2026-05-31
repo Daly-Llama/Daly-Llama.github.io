@@ -45,7 +45,6 @@ description: "Data science and machine learning projects by Dallin Nielson."
     </a>
 
     <!-- PROJECT 3 -->
-    <div class="project-card">
     <a class="project-card" href="https://github.com/Daly-Llama/kcs_chatbot" target="_blank" rel="noopener">
       <div class="project-card-header">
         <h3>KCS RAG Support Chatbot</h3>
@@ -79,10 +78,8 @@ description: "Data science and machine learning projects by Dallin Nielson."
 
     <!-- PROJECT 5 -->
     <a class="project-card" href="https://github.com/Daly-Llama/fraud_detection" target="_blank" rel="noopener">
-      <div class="project-card-header">
-        <h3>Credit Card Fraud Detection</h3>
-        <span class="project-label">Classification · Decision Trees</span>
-      </div>
+      <h3>Credit Card Fraud Detection</h3>
+      <span class="project-label" style="text-align: left ">Classification · Decision Trees</span>
       <p>
         A Decision Tree classifier that predicts fraudulent credit card transactions across 1 million records, designed with regulatory transparency as an explicit requirement alongside accuracy. The model achieves 100% recall on fraud cases in the test set — missing only 2 of 26,131 fraudulent transactions — while remaining fully interpretable: every decision can be traced through the tree and explained to auditors. Includes cross-validation and a documented deployment recommendation that prioritizes analyst oversight over automated blocking.
       </p>
@@ -90,10 +87,8 @@ description: "Data science and machine learning projects by Dallin Nielson."
 
     <!-- PROJECT 6 -->
     <a class="project-card" href="https://github.com/Daly-Llama/irish_music_analysis" target="_blank" rel="noopener">
-      <div class="project-card-header">
-        <h3>Traditional Irish Tune Popularity Analysis</h3>
-        <span class="project-label">Web Scraping · EDA</span>
-      </div>
+      <h3>Traditional Irish Tune Popularity Analysis</h3>
+      <span class="project-label" style="text-align: left ">Web Scraping · EDA</span>
       <p>
         An end-to-end data project that scrapes, parses, and cleans unstructured session data from a live traditional Irish music community site, then applies exploratory analysis to surface patterns in tune popularity, regional variation, and session frequency. Demonstrates the full pipeline from raw web data to structured insight.
       </p>
