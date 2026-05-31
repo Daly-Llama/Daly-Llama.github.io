@@ -37,7 +37,6 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
 
     <!-- CARD 1 -->
     <div class="card">
-      <span class="card-icon">🗂️</span>
       <h3>Knowledge Management & KCS</h3>
       <p>
         I build ML and NLP tools designed specifically for Knowledge-Centered Service environments — semantic search, link validation, RAG chatbots — grounded in real support workflows and the people who use them every day.
@@ -47,7 +46,6 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
 
     <!-- CARD 2 -->
     <div class="card">
-      <span class="card-icon">⚙️</span>
       <h3>Applied ML & Data Science</h3>
       <p>
         From classification pipelines to data engineering and visualization, I apply data science to problems that have clear real-world stakes — fraud detection, organizational decision-making, and operational insight.
@@ -57,7 +55,6 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
 
     <!-- CARD 3 -->
     <div class="card">
-      <span class="card-icon">🧭</span>
       <h3>What Drives My Work</h3>
       <p>
         I started my career on the frontline of customer support, where I learned firsthand how metrics get gamed and what actually matters. Those experiences shaped a set of values I still build from today.
