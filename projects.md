@@ -86,7 +86,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
     </a>
 
     <!-- PROJECT 6 -->
-    <a class="project-card" href="https://github.com/Daly-Llama/irish_music_analysis" target="_blank" rel="noopener">
+    <a class="project-card" href="https://github.com/Daly-Llama/session_tunes" target="_blank" rel="noopener">
       <h3>Traditional Irish Tune Popularity Analysis</h3>
       <span class="project-label" style="text-align: left ">Web Scraping · EDA</span>
       <p>
