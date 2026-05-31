@@ -626,9 +626,8 @@ hr {
 
 .contact-note p {
   color: rgba(255,255,255,0.75);
-  max-width: 560px;
-  margin: 0 auto;
   font-size: 1.05rem;
+  text-align: left;
 }
 
 .icon {
