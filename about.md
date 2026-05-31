@@ -28,22 +28,47 @@ description: "About Dallin Nielson — data scientist building human and data fo
   <!-- BIO + PHOTO -->
   <div class="about-intro">
     <div>
-      <!-- EDIT: Replace with your actual bio text -->
       <p style="margin-bottom: 1rem;">
-        I started my career on the frontline of customer support, and I noticed early on that the metrics we were measured on had almost nothing to do with whether customers were actually helped. That gap — between what gets counted and what actually matters — became something I couldn't unsee. I watched it repeat across organizations and industries: activity metrics that look clean on a dashboard while the underlying reality quietly drifts away from them. That experience gave me a lasting commitment to measurement that reflects reality rather than distorts it.
-      </p>
-      <p style="margin-bottom: 1rem;">
-        When I discovered Knowledge-Centered Service, it felt like a methodology built around things I'd already come to believe: that the people closest to the work understand the problems best, that knowledge should be captured at the moment of work rather than handed down from a separate team, and that a healthy knowledge system is a living thing — not a static archive. Data science gave me the toolset to apply those ideas in ways that actually change outcomes. My work now sits at the intersection of people, process, knowledge, and AI.
+        I'm an applied data scientist specializing in knowledge systems — NLP,
+        classification, retrieval, and RAG pipelines built around real knowledge
+        workflows. I work at the intersection of people, process, knowledge, and AI,
+        with a focus on building the right foundations before layering in the technology.
       </p>
       <p>
-        I'm an applied data scientist specializing in knowledge systems — NLP, classification, retrieval, and RAG pipelines built around real knowledge workflows. I'm not primarily interested in algorithms for their own sake; I'm interested in deploying them to solve specific problems for specific people. I'm actively involved in KCS adoption within my organization, including training, coaching, and building the data and AI tools that support the practice. My long-term direction is toward work at the intersection of knowledge systems design, human-centered AI, and organizational learning — helping organizations get the foundations right before layering in the technology.
+        I'm actively involved in KCS adoption within my organization, including
+        training, coaching, and building the data and AI tools that support the
+        practice. My long-term direction is toward knowledge systems design,
+        human-centered AI, and organizational learning.
       </p>
     </div>
 
-    <!-- EDIT: Make sure assets/profile.jpg exists in your repo -->
-    <!-- Delete the <img> tag below if you don't have a photo yet -->
     <img src="/assets/profile.jpg" alt="Dallin Nielson profile photo">
   </div>
+
+
+  <hr>
+
+
+  <!-- MY STORY -->
+  <h2 class="section-heading">My Story</h2>
+
+  <p style="margin-bottom: 1rem; color: var(--text-secondary);">
+    I started my career on the frontline of customer support, and I noticed early on
+    that the metrics we were measured on had almost nothing to do with whether customers
+    were actually helped. That gap — between what gets counted and what actually matters
+    — became something I couldn't unsee. I watched it repeat across organizations and
+    industries: activity metrics that look clean on a dashboard while the underlying
+    reality quietly drifts away from them. That experience gave me a lasting commitment
+    to measurement that reflects reality rather than distorts it.
+  </p>
+  <p style="color: var(--text-secondary);">
+    When I discovered Knowledge-Centered Service, it felt like a methodology built
+    around things I'd already come to believe: that the people closest to the work
+    understand the problems best, that knowledge should be captured at the moment of
+    work rather than handed down from a separate team, and that a healthy knowledge
+    system is a living thing — not a static archive. Data science gave me the toolset
+    to apply those ideas in ways that actually change outcomes.
+  </p>
 
 
   <hr>
