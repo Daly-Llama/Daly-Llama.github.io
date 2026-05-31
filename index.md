@@ -4,31 +4,18 @@ title: Home
 description: "Dallin Nielson — Data Scientist applying machine learning to Knowledge Centered Service."
 ---
 
-<!-- ============================================================
-     HOME PAGE (index.md)
-     WHAT TO EDIT HERE:
-       • Your name in <h1> below
-       • The subtitle text
-       • The three card titles, descriptions, and links
-     The dark banner and button styling is in assets/css/style.css
-     ============================================================ -->
-
 <!-- HERO BANNER -->
 <section class="hero">
   <div class="hero-inner">
 
-    <!-- Small label above your name -->
     <p class="hero-eyebrow">KCS Program Lead · ML & Data Science for Knowledge Systems</p>
 
-    <!-- Your name — this is the biggest text on the page -->
     <h1>Dallin Nielson</h1>
 
-    <!-- One-sentence description of what you do -->
     <p class="hero-subtitle">
       Building knowledge systems where people and AI work together.
     </p>
 
-    <!-- Call-to-action buttons -->
     <div class="hero-cta">
       <a href="/projects" class="btn btn-primary">View My Projects</a>
       <a href="/about"    class="btn btn-secondary">About Me</a>
@@ -41,43 +28,43 @@ description: "Dallin Nielson — Data Scientist applying machine learning to Kno
 <!-- FEATURE CARDS -->
 <section class="cards-section">
 
-  <!-- Section heading (optional — delete if you prefer no heading) -->
   <h2 class="section-heading">What I Do</h2>
   <p class="section-intro">
-    My work sits at the intersection of applied machine learning, knowledge architecture, and human-centered workflow design.
+    My work sits at the intersection of applied machine learning, knowledge architecture, and human-centered workflow design — built around the idea that the right foundations make the difference between AI that empowers people and AI that amplifies dysfunction.
   </p>
 
   <div class="cards-grid">
 
-    <!-- CARD 1 — Change the icon, title, description, and link -->
+    <!-- CARD 1 -->
     <div class="card">
       <span class="card-icon">🗂️</span>
-      <h3>Placeholder 1</h3>
+      <h3>Knowledge Management & KCS</h3>
       <p>
-        Projects Placeholder
+        I build ML and NLP tools designed specifically for Knowledge-Centered Service environments — semantic search, link validation, RAG chatbots — grounded in real support workflows and the people who use them every day.
       </p>
-      <a href="/projects" class="card-link">See projects</a>
+      <a href="/projects#knowledge-management" class="card-link">See the projects</a>
     </div>
 
     <!-- CARD 2 -->
     <div class="card">
-      <span class="card-icon">🗂️</span>
-      <h3>Placeholder 2</h3>
+      <span class="card-icon">⚙️</span>
+      <h3>Applied ML & Data Science</h3>
       <p>
-        About Me placeholder
+        From classification pipelines to data engineering and visualization, I apply data science to problems that have clear real-world stakes — fraud detection, organizational decision-making, and operational insight.
       </p>
-      <a href="/about" class="card-link">My approach</a>
+      <a href="/projects#other-projects" class="card-link">Other projects</a>
     </div>
 
     <!-- CARD 3 -->
     <div class="card">
-      <span class="card-icon">🗂️</span>
-      <h3>Placeholder 3</h3>
+      <span class="card-icon">🧭</span>
+      <h3>What Drives My Work</h3>
       <p>
-        Contact Placeholder
+        I started my career on the frontline of customer support, where I learned firsthand how metrics get gamed and what actually matters. Those experiences shaped a set of values I still build from today.
       </p>
-      <a href="/contact" class="card-link">Contact Me</a>
+      <a href="/about#what-drives-my-work" class="card-link">My values</a>
     </div>
 
   </div>
+
 </section>
