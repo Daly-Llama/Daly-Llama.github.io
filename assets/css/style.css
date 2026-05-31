@@ -553,6 +553,13 @@ hr {
   text-decoration: none;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+
 
 /* ============================================================
    10. CONTACT PAGE
