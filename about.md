@@ -48,7 +48,7 @@ description: "About Dallin Nielson — data scientist building human and data fo
 
 
   <!-- WHAT DRIVES MY WORK -->
-  <h2 class="section-heading">What Drives My Work</h2>
+  <h2 class="section-heading" id="what-drives-my-work">What Drives My Work</h2>
 
   <p style="margin-bottom: 2rem; color: var(--text-secondary);">
     I believe great knowledge systems live at the intersection of three things: how people actually behave, how information is structured, and how AI can amplify human expertise — not replace it.
