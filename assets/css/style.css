@@ -636,6 +636,17 @@ hr {
   object-fit: contain;
 }
 
+a.contact-card {
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+a.contact-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
 
 /* ============================================================
    11. FOOTER
