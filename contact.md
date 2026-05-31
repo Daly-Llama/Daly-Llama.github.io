@@ -27,43 +27,25 @@ description: "Get in touch with Dallin Nielson — data scientist and KCS specia
   <div class="contact-grid">
 
     <!-- EMAIL -->
-    <div class="contact-card">
+    <a class="contact-card" href="mailto:dallin.nielson@gmail.com">
       <span class="contact-icon"><img src="/assets/Email.jpg" alt="Email icon" class="icon"></span>
       <h3>Email</h3>
-      <!-- EDIT: Replace with your actual email -->
-      <a href="mailto:dallin.nielson@gmail.com">dallin.nielson@gmail.com</a>
-    </div>
+      <p>dallin.nielson@gmail.com</p>
+    </a>
 
     <!-- LINKEDIN -->
-    <div class="contact-card">
+    <a class="contact-card" href="https://www.linkedin.com/in/dallin-nielson" target="_blank" rel="noopener">
       <span class="contact-icon"><img src="/assets/LI-In-Bug.png" alt="LinkedIn Logo icon" class="icon"></span>
       <h3>LinkedIn</h3>
-      <!-- EDIT: Replace with your LinkedIn URL and display text -->
-      <a href="https://www.linkedin.com/in/dallin-nielson" target="_blank" rel="noopener">
-        linkedin.com/in/dallin-nielson
-      </a>
-    </div>
+      <p>linkedin.com/in/dallin-nielson</p>
+    </a>
 
     <!-- GITHUB -->
-    <div class="contact-card">
+    <a class="contact-card" href="https://github.com/Daly-Llama" target="_blank" rel="noopener">
       <span class="contact-icon"><img src="/assets/GitHub_Invertocat_Black.png" alt="GitHub Logo icon" class="icon"></span>
       <h3>GitHub</h3>
-      <!-- EDIT: Replace with your GitHub URL -->
-      <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">
-        github.com/Daly-Llama
-      </a>
-    </div>
-
-    <!-- OPTIONAL: Add more cards below by copying a block above -->
-    <!--
-    <div class="contact-card">
-      <span class="contact-icon">📝</span>
-      <h3>Medium</h3>
-      <a href="https://medium.com/@yourhandle" target="_blank" rel="noopener">
-        medium.com/@yourhandle
-      </a>
-    </div>
-    -->
+      <p>github.com/Daly-Llama</p>
+    </a>
 
   </div>
 
