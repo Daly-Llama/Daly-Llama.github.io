@@ -496,8 +496,10 @@ hr {
   border: 1px solid var(--border-card);
   border-radius: var(--card-radius);
   padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 2rem;
   transition: box-shadow 0.2s, transform 0.2s;
 }
 .project-card:hover {
@@ -509,17 +511,17 @@ hr {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  grid-column: 1;
 }
 
 .project-card p {
   color: var(--text-secondary);
   font-size: 0.80rem;
   line-height: 1.65;
-  flex: 1;
-  margin-bottom: 1.25rem;
+  margin: 0;
+  grid-column: 1;
 }
 
-/* Label across the top of a project card (e.g., "Machine Learning") */
 .project-label {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -527,14 +529,19 @@ hr {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent-warm);
-  margin-bottom: 0.6rem;
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
 }
 
 .project-links {
   display: flex;
+  flex-direction: column;
   gap: 0.75rem;
-  flex-wrap: wrap;
-  margin-top: auto;
+  grid-column: 2;
+  grid-row: 2;
+  align-items: flex-end;
+  align-self: end;
 }
 
 .project-links a {
@@ -545,6 +552,7 @@ hr {
   padding: 0.3rem 0.85rem;
   border-radius: 5px;
   transition: background 0.15s;
+  white-space: nowrap;
 }
 .project-links a:hover {
   background: var(--accent-light);
@@ -784,6 +792,18 @@ hr {
 
   .values-list {
     grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .project-label,
+  .project-links {
+    grid-column: 1;
+    grid-row: auto;
+    text-align: left;
+    align-items: flex-start;
   }
 
 }
