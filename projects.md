@@ -29,42 +29,58 @@ description: "Data science and machine learning projects by Dallin Nielson."
 
     <!-- PROJECT 1 -->
     <div class="project-card">
-      <!-- EDIT: Category label — shown in amber above the title -->
-      <p class="project-label">NLP · Classification</p>
-      <!-- EDIT: Project title -->
-      <h3>Link-Validation Classifier</h3>
-      <!-- EDIT: 2–3 sentence description -->
+      <p class="project-label">NLP · Classification · RAG</p>
+      <h3>KCS Link Validator</h3>
       <p>
-        Placeholder text
+        A complete end-to-end ML pipeline that predicts whether a help desk analyst
+        linked the correct knowledge article to a support ticket. Built for
+        Knowledge-Centered Service environments, the system scrapes and parses a
+        live knowledge base, generates synthetic incidents using OpenAI with
+        randomized situational modifiers, embeds both articles and incidents using
+        SentenceTransformers, and trains a Logistic Regression classifier on
+        cosine similarity and metadata features. Achieves 90% accuracy and
+        0.95 ROC-AUC with full SHAP explainability.
       </p>
-      <!-- EDIT: Update href to your actual GitHub/demo links -->
       <div class="project-links">
-        <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">GitHub</a>
-        <!-- <a href="#">Live Demo</a> -->  <!-- Uncomment if you have a demo -->
+        <a href="https://github.com/Daly-Llama/link_validator" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
     <!-- PROJECT 2 -->
     <div class="project-card">
-      <p class="project-label">Clustering · Unsupervised ML</p>
-      <h3>Support Ticket Clustering</h3>
+      <p class="project-label">NLP · Semantic Search · Information Retrieval</p>
+      <h3>Semantic KCS Knowledge Search</h3>
       <p>
-        Placeholder text
+        A semantic search engine that surfaces the most relevant knowledge articles
+        for a support incident using sentence embeddings and cosine similarity.
+        Built specifically for KCS environments, the model embeds only the Issue
+        and Environment fields of each article — the customer-facing language KCS
+        is designed to produce — and includes an explanation layer that surfaces
+        shared keywords, named entities, and the strongest sentence-level matches
+        so analysts understand why each result was recommended. Achieves 0.94 MRR
+        and 99.8% Recall@10 on synthetic data.
       </p>
       <div class="project-links">
-        <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/Daly-Llama/semantic_search" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
     <!-- PROJECT 3 -->
     <div class="project-card">
-      <p class="project-label">RAG · Retrieval Systems</p>
-      <h3>RAG Pipeline for Knowledge Retrieval</h3>
+      <p class="project-label">RAG · LLM · Conversational AI</p>
+      <h3>KCS RAG Support Chatbot</h3>
       <p>
-        Placeholder text
+        A retrieval-augmented generation chatbot that answers support questions
+        grounded in a KCS knowledge base, built with LangChain, Chroma, and a
+        fine-tuned GPT-4o Mini model trained on KCS response behavior. The
+        pipeline retrieves the most relevant article chunks for each query,
+        rewrites follow-up questions into standalone form to preserve conversation
+        context, and enforces strict grounding rules so the model never answers
+        beyond what the knowledge base contains. Deployed as an interactive
+        Streamlit application.
       </p>
       <div class="project-links">
-        <a href="https://github.com/Daly-Llama" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/Daly-Llama/kcs_chatbot" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
