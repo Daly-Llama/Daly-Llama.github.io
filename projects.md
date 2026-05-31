@@ -123,6 +123,25 @@ description: "Data science and machine learning projects by Dallin Nielson."
       </div>
     </div>
 
+    <!-- Project 6 -->
+    <div class="project-card">
+      <p class="project-label">Web Scraping · EDA · Hypothesis Testing</p>
+      <h3>Traditional Irish Tune Popularity Analysis</h3>
+      <p>
+        An end-to-end data project exploring what makes a traditional Irish tune
+        popular, using data scraped from TheSession.org. A custom web scraper
+        collected metadata on approximately 22,000 tunes, including tunebook saves,
+        recordings, sets, and sheet music submissions. Exploratory analysis,
+        permutation hypothesis testing, and OLS regression reveal that jigs and
+        reels are significantly more popular than other tune types, and that sheet
+        music submissions explain approximately 41% of the variance in tune
+        popularity.
+      </p>
+      <div class="project-links">
+        <a href="https://github.com/Daly-Llama/session_tunes" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
     <!-- PROJECT # — TEMPLATE: Duplicate this block to add more projects -->
     <!--
     <div class="project-card">
