@@ -26,8 +26,7 @@ description: "Data science and machine learning projects by Dallin Nielson."
     <div class="project-card">
       <h3>KCS Link Validator</h3>
       <p>
-        A complete end-to-end ML pipeline that predicts whether a help desk analyst linked the correct knowledge article to a support ticket. Built for Knowledge-Centered Service environments, the system scrapes and parses a live knowledge base, generates synthetic incidents using OpenAI with randomized situational modifiers, embeds both articles and incidents using
-        SentenceTransformers, and trains a Logistic Regression classifier on cosine similarity and metadata features. Achieves 90% accuracy and 0.95 ROC-AUC with full SHAP explainability.
+        A complete end-to-end ML pipeline that predicts whether a help desk analyst linked the correct knowledge article to a support ticket. Built for Knowledge-Centered Service environments, the system scrapes and parses a live knowledge base, generates synthetic incidents using OpenAI with randomized situational modifiers, embeds both articles and incidents using SentenceTransformers, and trains a Logistic Regression classifier on cosine similarity and metadata features. Achieves 90% accuracy and 0.95 ROC-AUC with full SHAP explainability.
       </p>
       <p class="project-label">NLP · Classification · Embeddings</p>
       <div class="project-links">
