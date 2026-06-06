@@ -48,6 +48,10 @@
              {% if page.url contains 'projects' %}class="active"{% endif %}>Projects</a>
         </li>
         <li>
+          <a href="{{ '/writing' | relative_url }}"
+         {% if page.url contains 'writing' %}class="active"{% endif %}>Writing</a>
+        </li>
+        <li>
           <a href="{{ '/contact' | relative_url }}"
              {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a>
         </li>
