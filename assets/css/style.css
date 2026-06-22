@@ -789,4 +789,18 @@ a.contact-card:hover {
     grid-template-columns: 1fr;
   }
 
+  .project-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .project-card h3 {
+    flex-shrink: 1;
+  }
+
+  .project-label {
+    text-align: left;
+  }
+
 }
