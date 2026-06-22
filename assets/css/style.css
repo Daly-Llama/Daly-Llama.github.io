@@ -510,10 +510,7 @@ hr {
 }
 
 .project-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .project-card h3 {
@@ -521,7 +518,6 @@ hr {
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
-  flex-shrink: 0;
 }
 
 .project-card p {
@@ -538,7 +534,6 @@ hr {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent-warm);
-  text-align: right;
 }
 
 .project-links {
@@ -550,6 +545,19 @@ hr {
   flex-direction: column;
   gap: 1.75rem;
   margin-top: 2rem;
+}
+
+@media (min-width: 769px) {
+  .project-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0;
+  }
+  .project-label {
+    text-align: right;
+  }
 }
 
 
@@ -787,20 +795,6 @@ a.contact-card:hover {
 
   .values-list {
     grid-template-columns: 1fr;
-  }
-
-  .project-card-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.35rem;
-  }
-
-  .project-card h3 {
-    flex-shrink: 1;
-  }
-
-  .project-label {
-    text-align: left;
   }
 
 }
