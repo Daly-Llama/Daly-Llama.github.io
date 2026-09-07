@@ -1,0 +1,31 @@
+# ============================================================
+#  EXTERNAL ARTICLES
+# ============================================================
+#  Pieces published on other platforms. These appear under
+#  "Published elsewhere" on the Writing page.
+#
+#  Articles hosted on THIS site come from _posts/ automatically
+#  and must NOT be listed here.
+# ============================================================
+
+- title:    "AI Success is a People Problem"
+  platform: "LinkedIn"
+  date:     "May 2026"
+  url:      "https://www.linkedin.com/pulse/ai-success-people-problem-dallin-nielson-etdje/"
+  summary: >
+    Most companies won't fail at AI because of the technology — they'll fail because
+    they don't invest in their people. This piece makes the case that AI tools are only
+    as effective as the human behaviors feeding them, and argues that Knowledge-Centered
+    Service gives support organizations a concrete, proven framework for building exactly
+    those habits before layering in AI.
+
+- title:    "How Machine Learning Can Enhance KCS Linking Practices"
+  platform: "Medium"
+  date:     "April 2026"
+  url:      "https://medium.com/@dallin.nielson/how-machine-learning-can-enhance-kcs-linking-practices-bfbb0a797814"
+  summary: >
+    KCS linking — attaching the correct knowledge article to a support incident — is a
+    high-judgment task that directly affects resolution quality and knowledge health.
+    This piece introduces the Link Validator model: an ML system that predicts link
+    accuracy using sentence embeddings and cosine similarity, and how to implement it
+    without undermining analyst judgment.
